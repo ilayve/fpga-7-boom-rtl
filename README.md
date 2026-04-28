@@ -28,11 +28,24 @@ The design is built from several hardware modules:
 - Integrated push-button inputs and 7-segment display outputs
 - Tested and debugged the design on FPGA hardware
 
+## Project Structure
+
+- `src/` - Verilog source files used in the RTL design.
+- `quartus/` - Intel Quartus Prime project files, block diagrams, pin assignments, and simulation waveform files.
+- `docs/` - Project documentation and explanation PDF.
+- `media/` - Demonstration video showing the FPGA system running on hardware.
+
+## Demo
+
+A demonstration video is available in the `media/` folder, showing the system running on the Altera DE0 FPGA board.
+
+## Documentation
+
+The project report is available in the `docs/` folder.
+
 ## Project Status
 Completed.
 
 ## Future Improvements
-- Add simulation waveforms
 - Add a block diagram of the RTL architecture
-- Add photos of the FPGA board during operation
 - Improve input debouncing for push-button control
