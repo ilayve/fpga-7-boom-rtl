@@ -49,3 +49,11 @@ Completed.
 ## Future Improvements
 - Add a block diagram of the RTL architecture
 - Improve input debouncing for push-button control
+
+
+## How to Open the Project
+
+1. Open Intel Quartus Prime.
+2. Open the project file located in `quartus/Qfinal.qpf`.
+3. Review the Verilog source files in the `src/` folder.
+4. Use the waveform files in the `quartus/` folder for simulation reference.
